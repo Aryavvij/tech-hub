@@ -8319,41 +8319,6 @@
     "installed_locally": true
   },
   {
-    "id": "mcp-scaffolder-skill",
-    "name": "MCP-Scaffolder Skill",
-    "icon": "🔧",
-    "section": "claudeskills",
-    "section_label": "Claude Skills",
-    "rating": "maybe",
-    "rating_label": "MAYBE",
-    "tags": [
-      "MCP",
-      "Scaffolding",
-      "Duplicate of mcp-builder"
-    ],
-    "keywords": [
-      "build",
-      "capabilities",
-      "code",
-      "custom",
-      "duplicate",
-      "extend",
-      "integrations",
-      "mcp",
-      "mcp-builder",
-      "mcp-scaffolder",
-      "scaffold",
-      "scaffolding",
-      "servers",
-      "skill",
-      "tools"
-    ],
-    "purpose": "Build custom MCP servers with Claude Code — scaffold MCP tools, extend Claude's capabilities with custom integrations.",
-    "notes": "Functionally overlaps with the already-cataloged mcp-builder-skill (same description). Keep only one installed to avoid trigger collisions.",
-    "links": [],
-    "installed_locally": true
-  },
-  {
     "id": "chinese-grandpa-skill",
     "name": "/chinese-grandpa — Prompt Compression",
     "icon": "🈺",

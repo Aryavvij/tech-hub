@@ -1,6 +1,6 @@
 # tech-hub
 
-Aryav's curated catalog of AI/dev resources — tools, MCP servers, Claude skills, IDEs, build guides, project ideas, certs, and prompts. 199 entries, each rated 🔥 MUST USE / ✅ GOOD / 🤔 MAYBE.
+Aryav's curated catalog of AI/dev resources — tools, MCP servers, Claude skills, IDEs, build guides, project ideas, certs, and prompts. 198 entries, each rated 🔥 MUST USE / ✅ GOOD / 🤔 MAYBE.
 
 This repo is consumed by the [`techhub`](https://github.com/Aryavvij/tech-hub) Claude Code skill, which detects the stack of whatever project you're in and recommends the best-fit resources from here. See [How the skill uses this repo](#how-the-skill-uses-this-repo) below.
 
@@ -13,7 +13,7 @@ This repo is consumed by the [`techhub`](https://github.com/Aryavvij/tech-hub) C
 | [VS Code Extensions](sections/vscode-extensions.md) | 12 |
 | [Claude Power](sections/claude-power.md) | 9 |
 | [MCP Servers](sections/mcp-servers.md) | 14 |
-| [Claude Skills](sections/claude-skills.md) | 36 |
+| [Claude Skills](sections/claude-skills.md) | 35 |
 | [Projects](sections/projects.md) | 23 |
 | [Build Guides](sections/build-guides.md) | 2 |
 | [Jarvis Build](sections/jarvis-build.md) | 13 |
@@ -23,7 +23,7 @@ This repo is consumed by the [`techhub`](https://github.com/Aryavvij/tech-hub) C
 | [Vibe Sites](sections/vibe-sites.md) | 11 |
 | [Full Stack](sections/full-stack.md) | 6 |
 
-**By rating:** 82 🔥 MUST USE · 109 ✅ GOOD · 8 🤔 MAYBE
+**By rating:** 82 🔥 MUST USE · 109 ✅ GOOD · 7 🤔 MAYBE
 
 Each section page lists every entry with its rating, tags, one-line purpose, expandable details, and links.
 

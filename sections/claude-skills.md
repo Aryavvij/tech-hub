@@ -2,7 +2,7 @@
 
 [← back to index](../README.md)
 
-36 resources.
+35 resources.
 
 ## 🏗️ /architect — System Design Mode
 **🔥 MUST USE** · _Architecture, System Design, Decisions_
@@ -1012,21 +1012,6 @@ Translates prompts into Mandarin to compress instructions and save tokens. Use f
 <details><summary>Details</summary>
 
 Niche token-saving trick for dense sub-agent instructions — not a general-purpose skill.
-
-</details>
-
-Links: —
-
----
-
-## 🔧 MCP-Scaffolder Skill
-**🤔 MAYBE** · _MCP, Scaffolding, Duplicate of mcp-builder_
-
-Build custom MCP servers with Claude Code — scaffold MCP tools, extend Claude's capabilities with custom integrations.
-
-<details><summary>Details</summary>
-
-Functionally overlaps with the already-cataloged mcp-builder-skill (same description). Keep only one installed to avoid trigger collisions.
 
 </details>
 
