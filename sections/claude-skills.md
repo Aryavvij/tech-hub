@@ -2,7 +2,7 @@
 
 [← back to index](../README.md)
 
-35 resources.
+36 resources.
 
 ## 🏗️ /architect — System Design Mode
 **🔥 MUST USE** · _Architecture, System Design, Decisions_
@@ -82,6 +82,34 @@ Watches for triggers (session start/end, code review, architecture decisions, ve
 </details>
 
 Links: —
+
+---
+
+## 🔬 /research-assistant — Deep Dive & Writing Partner
+**🔥 MUST USE** · _Academic Writing, Peer Review, Socratic Method, Token-Efficient_
+
+Deep-dive research and academic writing partner — Socratic questioning on logic gaps, draft compilation with citation-safety, and blind peer review. Runs inline (no multi-agent orchestration) for token efficiency.
+
+<details><summary>Details</summary>
+
+#### Core Mandate
+Never hallucinate evidence — unsourced claims get tagged `[CITE: ...]` instead of invented. Academic voice, no AI-tell words. Runs a Three-Way Scan on any review: WHY (problem defended?), HOW (methodology sound?), WHAT (findings tied to data?).
+
+#### /dive-deep [section/argument]
+Socratic mentor mode — asks exactly 3 targeted questions to find logic gaps before any drafting happens. Writes no prose.
+
+#### /compile-draft [notes/outline/data]
+Turns raw notes into formal academic prose with an evidence hook on every major claim. Clean Markdown by default.
+
+#### /devil-advocate [draft/section]
+Hostile peer review structured under WHY/HOW/WHAT. For long drafts or explicit 'blind review' requests, offers a single isolated Agent call so the critique isn't softened by the drafting conversation's rapport.
+
+#### Design note
+Built as one file, not a multi-agent pipeline, specifically to control token cost. Inspired by (not copied from) imbad0202/academic-research-skills (13/12/7/10-agent version, CC-BY-NC) and Weizhena/Deep-Research-skills (two-phase outline-then-investigation pattern).
+
+</details>
+
+Links: [inspired by: academic-research-skills](https://github.com/imbad0202/academic-research-skills) · [inspired by: Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills)
 
 ---
 
