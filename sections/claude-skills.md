@@ -85,27 +85,27 @@ Links: —
 
 ---
 
-## 🔬 /research-assistant — Deep Dive & Writing Partner
-**🔥 MUST USE** · _Academic Writing, Peer Review, Socratic Method, Token-Efficient_
+## 🔬 /research-assistant — Full Research Agent
+**🔥 MUST USE** · _Academic Writing, Peer Review, Multi-Agent Research, Citation Verification_
 
-Deep-dive research and academic writing partner — Socratic questioning on logic gaps, draft compilation with citation-safety, and blind peer review. Runs inline (no multi-agent orchestration) for token efficiency.
+Full-capability research and academic writing agent — autonomous multi-agent literature research with real source verification, Socratic questioning on logic gaps, draft compilation with verified citations, and a 4-persona blind peer-review panel. Optimized for rigor, not token cost.
 
 <details><summary>Details</summary>
 
-#### Core Mandate
-Never hallucinate evidence — unsourced claims get tagged `[CITE: ...]` instead of invented. Academic voice, no AI-tell words. Runs a Three-Way Scan on any review: WHY (problem defended?), HOW (methodology sound?), WHAT (findings tied to data?).
+#### /research-deep [topic]
+Breaks the topic into subtopics, spawns one parallel Agent investigator per subtopic to actually search and read real sources, synthesizes into a sourced research brief with a Verified Sources list.
 
-#### /dive-deep [section/argument]
-Socratic mentor mode — asks exactly 3 targeted questions to find logic gaps before any drafting happens. Writes no prose.
+#### /dive-deep [argument]
+Socratic mentor — grounds its 3 questions in a quick literature check, writes no prose.
 
-#### /compile-draft [notes/outline/data]
-Turns raw notes into formal academic prose with an evidence hook on every major claim. Clean Markdown by default.
+#### /compile-draft [notes]
+Formal academic prose, pulls verified citations from any prior /research-deep brief, tags gaps as [CITE: ...] instead of inventing sources.
 
-#### /devil-advocate [draft/section]
-Hostile peer review structured under WHY/HOW/WHAT. For long drafts or explicit 'blind review' requests, offers a single isolated Agent call so the critique isn't softened by the drafting conversation's rapport.
+#### /devil-advocate [draft]
+Citation-verification pass (fetches every cited source, checks it actually supports the claim) + a 4-persona parallel blind review panel (Methodology Skeptic, Evidence Auditor, Novelty Skeptic, Clarity Reviewer), synthesized into one WHY/HOW/WHAT report.
 
 #### Design note
-Built as one file, not a multi-agent pipeline, specifically to control token cost. Inspired by (not copied from) imbad0202/academic-research-skills (13/12/7/10-agent version, CC-BY-NC) and Weizhena/Deep-Research-skills (two-phase outline-then-investigation pattern).
+This is the rigor-first version — real parallel web research and a real reviewer panel, not a lean single-pass tool. Inspired by (not copied from) imbad0202/academic-research-skills (13/12/7/10-agent version, CC-BY-NC) and Weizhena/Deep-Research-skills (outline-then-parallel-investigation pattern).
 
 </details>
 
