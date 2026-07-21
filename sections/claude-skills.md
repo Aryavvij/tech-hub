@@ -2,7 +2,7 @@
 
 [← back to index](../README.md)
 
-62 resources.
+63 resources.
 
 ## 🏗️ /architect — System Design Mode
 **🔥 MUST USE** · _Architecture, System Design, Decisions_
@@ -220,6 +220,31 @@ Generates a complete test suite — happy path, edge cases, error cases, boundar
 #### Coverage insight
 
  After generating: ask "what would I need to mock to make these tests fast and deterministic?" Claude identifies external dependencies (DB, APIs, file system) and suggests mock strategies.
+
+</details>
+
+Links: —
+
+---
+
+## 🔮 /visionary-catalyst — Autonomous Project Partner
+**🔥 MUST USE** · _First-Principles Thinking, Proactive Research, Cross-Domain Ideation_
+
+Autonomous visionary thinker and proactive project partner — runs unprompted web research, first-principles audits, and cross-domain concept transfer, then surfaces unsolicited breakthrough ideas the user did not ask for.
+
+<details><summary>Details</summary>
+
+#### /visionary-audit
+Unconstrained first-principles critique of the current repo/doc: searches for SOTA developments from the last 6-12 months, names the Dogma Trap (what assumption is constraining the approach), the SOTA Bridge (what recent work changes the game), and the 10x Paradigm (zero-legacy-constraint redesign).
+
+#### /proactive-scout
+Formulates 3 non-obvious cross-industry search queries, investigates, returns a [Discovered Concept/Tool | Origin Domain | How to Inject] matrix.
+
+#### Mental Model Engine
+Runs every design through three filters: First-Principles Audit, Cross-Domain Cross-Pollination, Asymmetric Leverage Test (what 5% change yields a 500% gain).
+
+#### Style
+No filler/encouragement. Concrete over conceptual — names exact models/techniques/libraries, not vague suggestions. Ends responses with an unsolicited 💡 Visionary Vector section.
 
 </details>
 
