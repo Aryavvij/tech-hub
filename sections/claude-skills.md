@@ -2,7 +2,7 @@
 
 [← back to index](../README.md)
 
-36 resources.
+62 resources.
 
 ## 🏗️ /architect — System Design Mode
 **🔥 MUST USE** · _Architecture, System Design, Decisions_
@@ -885,6 +885,21 @@ Links: [9router](https://github.com/decolua/9router)
 
 ---
 
+## 📊 academic-plotting (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 20-ml-paper-writing, MIT License_
+
+Generates publication-quality figures for ML papers from research context. Given a paper section or description, extracts system components and relationships to generate architecture diagrams via Gemini. Given experiment results or data, auto-selects chart type and generates data-driven figures via matplotlib/seaborn. Use when creating any figure for a conference paper.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `20-ml-paper-writing`. MIT licensed. Installed locally at ~/.claude/skills/academic-plotting/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
 ## 🌐 Agent-Browser Skill
 **✅ GOOD** · _Autonomous Web Agent, Research Loops_
 
@@ -918,6 +933,171 @@ Links: —
 
 ---
 
+## ⚙️ ara-compiler (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 22-agent-native-research-artifact, MIT License_
+
+Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete Agent-Native Research Artifact (ARA) with cognitive layer (claims, concepts, heuristics), physical layer (configs, code stubs), exploration graph, and grounded evidence. Use when ingesting a paper or codebase into a structured, machine-executable knowledge package, building an ARA from scratch, or converting research outputs into a falsifiable, agent-traversable form.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `22-agent-native-research-artifact`. MIT licensed. Installed locally at ~/.claude/skills/compiler/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 📁 ara-research-manager (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 22-agent-native-research-artifact, MIT License_
+
+Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends, claims, heuristics, and pivots, and writing them into the ara/ directory with user-vs-AI provenance tags. Use as a session epilogue — never during execution — to maintain a faithful, auditable trace of how a research project actually evolved.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `22-agent-native-research-artifact`. MIT licensed. Installed locally at ~/.claude/skills/research-manager/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🔎 ara-rigor-reviewer (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 22-agent-native-research-artifact, MIT License_
+
+Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring six dimensions (evidence relevance, falsifiability, scope calibration, argument coherence, exploration integrity, methodological rigor) and producing a constructive, severity-ranked report with a Strong Accept-to-Reject recommendation. Use after Level 1 structural validation passes, when an ARA needs an objective epistemic critique before publication or release.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `22-agent-native-research-artifact`. MIT licensed. Installed locally at ~/.claude/skills/rigor-reviewer/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🤖 autogpt-agents (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 14-agents, MIT License_
+
+Autonomous AI agent platform for building and deploying continuous agents. Use when creating visual workflow agents, deploying persistent autonomous agents, or building complex multi-step AI automation systems.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `14-agents`. MIT licensed. Installed locally at ~/.claude/skills/autogpt/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🔬 autoresearch (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 0-autoresearch-skill, MIT License_
+
+Orchestrates end-to-end autonomous AI research projects using a two-loop architecture. The inner loop runs rapid experiment iterations with clear optimization targets. The outer loop synthesizes results, identifies patterns, and steers research direction. Routes to domain-specific skills for execution, supports continuous agent operation via Claude Code /loop and OpenClaw heartbeat, and produces research presentations and papers. Use when starting a research project, running autonomous experiments, or managing a multi-hypothesis research effort.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `0-autoresearch-skill`. MIT licensed. Installed locally at ~/.claude/skills/autoresearch-skill/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🌩️ brainstorming-research-ideas (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 21-research-ideation, MIT License_
+
+Guides researchers through structured ideation frameworks to discover high-impact research directions. Use when exploring new problem spaces, pivoting between projects, or seeking novel angles on existing work.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `21-research-ideation`. MIT licensed. Installed locally at ~/.claude/skills/brainstorming-research-ideas/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🎨 chroma (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 15-rag, MIT License_
+
+Open-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to production clusters. Use for semantic search, RAG applications, or document retrieval. Best for local development and open-source projects.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `15-rag`. MIT licensed. Installed locally at ~/.claude/skills/chroma/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 💡 creative-thinking-for-research (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 21-research-ideation, MIT License_
+
+Applies cognitive science frameworks for creative thinking to CS and AI research ideation. Use when seeking genuinely novel research directions by leveraging combinatorial creativity, analogical reasoning, constraint manipulation, and other empirically grounded creative strategies.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `21-research-ideation`. MIT licensed. Installed locally at ~/.claude/skills/creative-thinking-for-research/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🤝 crewai-multi-agent (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 14-agents, MIT License_
+
+Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents working together on complex tasks, when you need role-based agent collaboration with memory, or for production workflows requiring sequential/hierarchical execution. Built without LangChain dependencies for lean, fast execution.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `14-agents`. MIT licensed. Installed locally at ~/.claude/skills/crewai/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🧩 dspy (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 16-prompt-engineering, MIT License_
+
+Build complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic LM programming
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `16-prompt-engineering`. MIT licensed. Installed locally at ~/.claude/skills/dspy/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🧬 evolving-ai-agents (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 14-agents, MIT License_
+
+Provides guidance for automatically evolving and optimizing AI agents across any domain using LLM-driven evolution algorithms. Use when building self-improving agents, optimizing agent prompts and skills against benchmarks, or implementing automated agent evaluation loops.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `14-agents`. MIT licensed. Installed locally at ~/.claude/skills/a-evolve/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
 ## 📘 Fable Skills (oliwoodman)
 **✅ GOOD** · _Claude Skills, Fable 5, Workflows_
 
@@ -930,6 +1110,21 @@ Install manually into ~/.claude/skills/. Useful as reproducible method templates
 </details>
 
 Links: [GitHub](https://github.com/oliwoodman/fable-skills)
+
+---
+
+## 🔍 faiss (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 15-rag, MIT License_
+
+Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vector retrieval, or when you need pure similarity search without metadata. Best for high-performance applications.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `15-rag`. MIT licensed. Installed locally at ~/.claude/skills/faiss/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
 
 ---
 
@@ -966,6 +1161,81 @@ Links: —
 
 ---
 
+## 🎯 guidance (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 16-prompt-engineering, MIT License_
+
+Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `16-prompt-engineering`. MIT licensed. Installed locally at ~/.claude/skills/guidance/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 📐 instructor (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 16-prompt-engineering, MIT License_
+
+Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `16-prompt-engineering`. MIT licensed. Installed locally at ~/.claude/skills/instructor/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🔗 langchain (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 14-agents, MIT License_
+
+Framework for building LLM-powered applications with agents, chains, and RAG. Supports multiple providers (OpenAI, Anthropic, Google), 500+ integrations, ReAct agents, tool calling, memory management, and vector store retrieval. Use for building chatbots, question-answering systems, autonomous agents, or RAG applications. Best for rapid prototyping and production deployments.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `14-agents`. MIT licensed. Installed locally at ~/.claude/skills/langchain/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🔭 langsmith-observability (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 17-observability, MIT License_
+
+LLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelines for AI applications.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `17-observability`. MIT licensed. Installed locally at ~/.claude/skills/langsmith/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🦙 llamaindex (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 14-agents, MIT License_
+
+Data framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying. Features vector indices, query engines, agents, and multi-modal support. Use for document Q&A, chatbots, knowledge retrieval, or building RAG pipelines. Best for data-centric LLM applications.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `14-agents`. MIT licensed. Installed locally at ~/.claude/skills/llamaindex/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
 ## 🏗️ MCP-Builder Skill
 **✅ GOOD** · _Build Custom MCP Servers, Scaffolding_
 
@@ -996,6 +1266,126 @@ Claude Code skill that helps you build custom MCP servers. Scaffolds the boilerp
 </details>
 
 Links: —
+
+---
+
+## 📝 ml-paper-writing (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 20-ml-paper-writing, MIT License_
+
+Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. For systems venues (OSDI, NSDI, ASPLOS, SOSP), use systems-paper-writing instead.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `20-ml-paper-writing`. MIT licensed. Installed locally at ~/.claude/skills/ml-paper-writing/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 📋 outlines (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 16-prompt-engineering, MIT License_
+
+Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `16-prompt-engineering`. MIT licensed. Installed locally at ~/.claude/skills/outlines/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🐦 phoenix-observability (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 17-observability, MIT License_
+
+Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `17-observability`. MIT licensed. Installed locally at ~/.claude/skills/phoenix/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🌲 pinecone (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 15-rag, MIT License_
+
+Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed infrastructure.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `15-rag`. MIT licensed. Installed locally at ~/.claude/skills/pinecone/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🎤 presenting-conference-talks (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 20-ml-paper-writing, MIT License_
+
+Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script. Use when preparing oral talks, spotlight presentations, or invited talks for ML and systems conferences.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `20-ml-paper-writing`. MIT licensed. Installed locally at ~/.claude/skills/presenting-conference-talks/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## ⚡ qdrant-vector-search (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 15-rag, MIT License_
+
+High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage with Rust-powered performance.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `15-rag`. MIT licensed. Installed locally at ~/.claude/skills/qdrant/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 📐 sentence-transformers (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 15-rag, MIT License_
+
+Framework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained models for semantic similarity, clustering, and retrieval. Supports multilingual, domain-specific, and multimodal models. Use for generating embeddings for RAG, semantic search, or similarity tasks. Best for production embedding generation.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `15-rag`. MIT licensed. Installed locally at ~/.claude/skills/sentence-transformers/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
+
+---
+
+## 🖥️ systems-paper-writing (AI-research-SKILLs)
+**✅ GOOD** · _AI-research-SKILLs, 20-ml-paper-writing, MIT License_
+
+Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys. Provides paragraph-level structural blueprints, writing patterns, venue-specific checklists, reviewer guidelines, LaTeX templates, and conference deadlines. Use this skill for all systems conference paper writing.
+
+<details><summary>Details</summary>
+
+From orchestra-research/AI-research-SKILLs, category `20-ml-paper-writing`. MIT licensed. Installed locally at ~/.claude/skills/systems-paper-writing/. One of 98 skills in the source repo; only the categories relevant to agent/RAG/prompt-eng/research-writing work were installed (ML training/infra/quantization/etc. categories were skipped as out of scope).
+
+</details>
+
+Links: [source repo](https://github.com/orchestra-research/AI-research-SKILLs)
 
 ---
 
